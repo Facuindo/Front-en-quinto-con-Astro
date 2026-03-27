@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+  
+    display: flex;
+    justify-content: center;  /* centra horizontal */
+    align-items: center;      /* centra vertical */
+  
+    height: 100vh;            /* ocupa toda la pantalla */
+    margin: 0;                /* elimina margen por defecto */
+  }
+  
+  .container {
+    background: rgb(182, 97, 97);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  input, select {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #362d2d;
+    width: 80%;
+  }
+  
+  .selects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  span {
+    font-size: 20px;
+    margin: 0 10px;
+  }

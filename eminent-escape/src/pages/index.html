@@ -1,17 +1,38 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Conversor de unidades</title>
-  <link rel="stylesheet" href="main.css" />
+  <meta charset="UTF-8">
+  <title>Conversor</title>
+  <link rel="stylesheet" href="/main.css">
 </head>
 <body>
-  <h1>FUNCIONA</h1>
 
-  <div class="title">
-    <strong>Conversor de unidades</strong>
-    <span>Convierte unidades dentro del sistema metrico de medida</span>
+<div class="container">
+  <h1>Conversor de Longitud</h1>
+
+  <input type="number" id="valor" placeholder="¿Cuánto querés convertir?">
+
+  <div class="selects">
+    <select id="origen">
+      <option value="mm">Milímetros</option>
+      <option value="cm">Centímetros</option>
+      <option value="m">Metros</option>
+      <option value="km">Kilómetros</option>
+    </select>
+
+    <span>→</span>
+
+    <select id="destino">
+      <option value="mm">Milímetros</option>
+      <option value="cm">Centímetros</option>
+      <option value="m">Metros</option>
+      <option value="km">Kilómetros</option>
+    </select>
   </div>
+
+  <h2 id="resultado">Resultado: --</h2>
+</div>
+
+<script src="script.js"></script>
 </body>
-     
+</html>
